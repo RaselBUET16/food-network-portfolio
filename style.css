@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+montserrat-font{
+    font-family: 'Montserrat', sans-serif;
+}
+.yellow-color{
+    color:#FBA24F;
+}
+.ash-color{
+    color:#575757;
+}
+.width-50{
+    width:50%;
+    padding: 5%;
+}
+.header-section{
+    display: flex;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size:20px;
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: white;
+    padding :15px 30px;
+    border-radius: 60px;
+}
+.about-section{
+    display: flex;
+    height: 600px;   
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+img{
+    height: 100%;
+    width:100%;
+}
+.my-reciepe{
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+}
+.item{
+    width: 90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.card{
+    
+    width:25%;
+    padding:15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card img{
+    border-radius: 10px;
+}
+.like-item{
+    width: 82%;
+    margin:0 auto;
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 100px;
+}
+.footer-section{
+    background-color: black;
+
+}
